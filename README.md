@@ -2,6 +2,8 @@
 
 Create beautiful JavaScript maps with one line of Python. No more fighting with mapping libraries!
 
+[See it in action](https://chartkick.com/mapkick-py)
+
 [![Build Status](https://github.com/ankane/mapkick.py/workflows/build/badge.svg?branch=master)](https://github.com/ankane/mapkick.py/actions)
 
 ## Installation
