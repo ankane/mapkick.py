@@ -22,7 +22,7 @@ Add to `INSTALLED_APPS` in `settings.py`
 
 ```python
 INSTALLED_APPS = [
-    "mapkick.django",
+    'mapkick.django',
     # ...
 ]
 ```
