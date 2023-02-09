@@ -1,2 +1,2 @@
-include licenses/*
+include mapkick/licenses/*
 include mapkick/django/static/*

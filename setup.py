@@ -14,8 +14,10 @@ setup(
     author_email='andrew@ankane.org',
     license='MIT',
     packages=[
+        'mapkick',
         'mapkick.django'
     ],
+    include_package_data=True,
     python_requires='>=3.7',
     install_requires=[],
     zip_safe=False
