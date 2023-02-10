@@ -171,4 +171,5 @@ To get started with development:
 git clone https://github.com/ankane/mapkick.py.git
 cd mapkick.py
 pip install -r requirements.txt
+pytest
 ```
