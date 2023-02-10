@@ -67,7 +67,7 @@ AreaMap([{'geometry': {'type': 'Polygon', 'coordinates': ...}}])
 
 ## Data
 
-Data can be an list
+Data can be a list
 
 ```python
 Map([{'latitude': 37.7829, 'longitude': -122.4190}])
