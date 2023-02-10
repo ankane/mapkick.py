@@ -11,6 +11,16 @@ class TestDjango:
         map = AreaMap([])
         assert 'new Mapkick' in str(map)
 
+    def test_escape_data(self):
+        map = Map('</script><script>alert("xss")</script>')
+        assert '\\u003Cscript\\u003E' in str(map)
+        assert '<script>alert' not in str(map)
+
+    def test_escape_options(self):
+        map = Map([], xss='</script><script>alert("xss")</script>')
+        assert '\\u003Cscript\\u003E' in str(map)
+        assert '<script>alert' not in str(map)
+
     def test_height_pixels(self):
         assert 'height: 100px;' in str(Map([], height='100px'))
 
