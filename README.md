@@ -16,7 +16,11 @@ pip install mapkick
 
 Mapkick uses [Mapbox GL JS v1](https://github.com/mapbox/mapbox-gl-js/tree/v1.13.3). To use tiles from Mapbox, [create a Mapbox account](https://account.mapbox.com/auth/signup/) to get an access token and set `MAPBOX_ACCESS_TOKEN` in your environment.
 
-## Django
+Then follow the instructions for your web framework:
+
+- [Django](#django)
+
+### Django
 
 Add to `INSTALLED_APPS` in `settings.py`
 
