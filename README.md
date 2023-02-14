@@ -21,6 +21,7 @@ Mapkick uses [Mapbox GL JS v1](https://github.com/mapbox/mapbox-gl-js/tree/v1.13
 Then follow the instructions for your web framework:
 
 - [Django](#django)
+- [Flask](#flask) [unreleased]
 
 ### Django
 
@@ -49,6 +50,38 @@ from mapkick.django import Map
 def index(request):
     map = Map([{'latitude': 37.7829, 'longitude': -122.4190}])
     return render(request, 'home/index.html', {'map': map})
+```
+
+And add it to the template
+
+```django
+{{ map }}
+```
+
+### Flask
+
+Register the blueprint
+
+```python
+from mapkick.flask import mapkick
+
+app.register_blueprint(mapkick)
+```
+
+Load the JavaScript
+
+```jinja
+<script src="{{ url_for('mapkick.static', filename='mapkick.bundle.js') }}"></script>
+```
+
+Create a map in a route
+
+```python
+from mapkick.flask import Map
+
+def index():
+    map = Map([{'latitude': 37.7829, 'longitude': -122.4190}])
+    return render_template('home/index.html', map=map)
 ```
 
 And add it to the template
