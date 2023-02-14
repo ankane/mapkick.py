@@ -13,7 +13,6 @@ class BaseMap:
     def __init__(self, type, data, **options):
         # important! check escaping before making configurable
         element_id = 'map-' + secrets.token_hex(16)
-        json_element_id = element_id + '-json'
 
         height = str(options.pop('height', '500px'))
         width = str(options.pop('width', '100%'))
