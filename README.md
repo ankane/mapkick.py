@@ -162,7 +162,7 @@ Map(url, refresh=60)
 
 ## History
 
-View the [changelog](CHANGELOG.md)
+View the [changelog](https://github.com/ankane/mapkick.py/blob/master/CHANGELOG.md)
 
 ## Contributing
 
