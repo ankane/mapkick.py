@@ -21,7 +21,7 @@ Mapkick uses [Mapbox GL JS v1](https://github.com/mapbox/mapbox-gl-js/tree/v1.13
 Then follow the instructions for your web framework:
 
 - [Django](#django)
-- [Flask](#flask) [unreleased]
+- [Flask](#flask)
 
 ### Django
 
