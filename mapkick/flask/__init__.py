@@ -6,7 +6,7 @@ import re
 import secrets
 
 static_folder = os.path.abspath(__file__ + '/../../django/static')
-mapkick = Blueprint('mapkick', __name__, static_folder=static_folder, static_url_path='/static/mapkick')
+mapkick_blueprint = Blueprint('mapkick', __name__, static_folder=static_folder, static_url_path='/static/mapkick')
 
 
 class BaseMap:

@@ -63,9 +63,9 @@ And add it to the template
 Register the blueprint
 
 ```python
-from mapkick.flask import mapkick
+from mapkick.flask import mapkick_blueprint
 
-app.register_blueprint(mapkick)
+app.register_blueprint(mapkick_blueprint)
 ```
 
 Load the JavaScript
