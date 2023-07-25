@@ -98,7 +98,7 @@ Point map
 Map([{'latitude': 37.7829, 'longitude': -122.4190}])
 ```
 
-Area map (experimental)
+Area map
 
 ```python
 AreaMap([{'geometry': {'type': 'Polygon', 'coordinates': ...}}])
@@ -193,7 +193,7 @@ Refresh data from a remote source every `n` seconds
 Map(url, refresh=60)
 ```
 
-Pass options directly to the mapping library [unreleased]
+Pass options directly to the mapping library
 
 ```python
 Map(data, library={'hash': True})
