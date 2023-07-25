@@ -193,6 +193,14 @@ Refresh data from a remote source every `n` seconds
 Map(url, refresh=60)
 ```
 
+Pass options directly to the mapping library [unreleased]
+
+```python
+Map(data, library={'hash': True})
+```
+
+See the documentation for [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/map/) for more info
+
 ## History
 
 View the [changelog](https://github.com/ankane/mapkick.py/blob/master/CHANGELOG.md)
