@@ -4,7 +4,7 @@ Create beautiful JavaScript maps with one line of Python. No more fighting with 
 
 [See it in action](https://chartkick.com/mapkick-py)
 
-For charts, check out [Chartkick.py](https://github.com/ankane/chartkick.py)
+For static maps, check out [Mapkick Static](https://github.com/ankane/mapkick-static.py), and for charts, check out [Chartkick.py](https://github.com/ankane/chartkick.py)
 
 [![Build Status](https://github.com/ankane/mapkick.py/workflows/build/badge.svg?branch=master)](https://github.com/ankane/mapkick.py/actions)
 
