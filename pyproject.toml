@@ -18,3 +18,10 @@ Homepage = "https://github.com/ankane/mapkick.py"
 
 [tool.setuptools.package-data]
 mapkick = ["licenses/*", "django/static/*"]
+
+[dependency-groups]
+dev = [
+    "Django",
+    "Flask",
+    "pytest"
+]

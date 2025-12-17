@@ -219,6 +219,6 @@ To get started with development:
 ```sh
 git clone https://github.com/ankane/mapkick.py.git
 cd mapkick.py
-pip install -r requirements.txt
+pip install --group dev
 pytest
 ```
